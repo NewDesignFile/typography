@@ -10,10 +10,10 @@ npm i @new-ui/typography
 [Get a Figma copy](https://www.figma.com/community/file/1186085071546203382)
 
 
-## Decision Tokens for Desktop
+## Desktop Typography
 
 ### Headings
-Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
+Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
 :--- |:--- |:--- |:--- |:--- |:---
 `$heading-01` | Heading 01 | 54 | 64 | Bold | -1.2px
 `$heading-02` | Heading 02 | 42 | 50 | Bold | -0.8px
@@ -23,7 +23,7 @@ Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px
 `$heading-06` | Heading 06 | 18 | 26 | Bold | 0
 
 ### Body
-Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
+Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
 :--- |:--- |:--- |:--- |:--- |:---
 `$body-large` | Body large | 18 | 26 | Regular | 0
 `$body` | Body | 16 | 24 | Bold | 0
@@ -33,7 +33,7 @@ Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px
 `---` | Body small, semi bold | 14 | 20 | Semi Bold | 0
 
 ### Links
-Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
+Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
 :--- |:--- |:--- |:--- |:--- |:---
 `---` | Link large | 18 | 26 | Regular | 0
 `---` | Link | 16 | 24 | Bold | 0
@@ -43,7 +43,7 @@ Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px
 `---` | Link small, semi bold | 14 | 20 | Semi Bold | 0
 
 ### Utility
-Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
+Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter spacing (px/rem)
 :--- |:--- |:--- |:--- |:--- |:---
 `$caption` | Caption | 12 | 16 | Semi Bold | 0
 `$helper-text` | Helper text | 12 | 16 | Regular | 0
