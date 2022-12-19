@@ -1,0 +1,65 @@
+/**
+ * Do not edit directly
+ * Generated on Mon, 19 Dec 2022 19:10:31 GMT
+ */
+
+:root {
+  --font-families-jetbrains-mono: JetBrains Mono;
+  --font-families-inter: Inter;
+  --text-case-uppercase: uppercase;
+  --text-case-none: none;
+  --text-decoration-underline: underline;
+  --text-decoration-none: none;
+  --paragraph-spacing-0: 9;
+  --letter-spacing-4: 0.4;
+  --letter-spacing-3: 0;
+  --letter-spacing-2: -0.4;
+  --letter-spacing-1: -0.8;
+  --letter-spacing-0: -1.2;
+  --font-size-10: 54;
+  --font-size-9: 54;
+  --font-size-8: 42;
+  --font-size-7: 32;
+  --font-size-6: 28;
+  --font-size-5: 24;
+  --font-size-4: 20;
+  --font-size-3: 18;
+  --font-size-2: 16;
+  --font-size-1: 14;
+  --font-size-0: 12;
+  --font-weights-jetbrains-mono-3: Regular;
+  --font-weights-inter-2: Semi Bold;
+  --font-weights-inter-1: Regular;
+  --font-weights-inter-0: Bold;
+  --line-heights-9: 30;
+  --line-heights-8: 16;
+  --line-heights-7: 20;
+  --line-heights-6: 24;
+  --line-heights-5: 26;
+  --line-heights-4: 28;
+  --line-heights-3: 36;
+  --line-heights-2: 40;
+  --line-heights-1: 50;
+  --line-heights-0: 64;
+  --desktop-utility-code: [object Object];
+  --desktop-utility-helper-text: [object Object];
+  --desktop-utility-caption: [object Object];
+  --desktop-links-body-small-semi-bold: [object Object];
+  --desktop-links-body-semi-bold: [object Object];
+  --desktop-links-body-large-semi-bold: [object Object];
+  --desktop-links-body-small: [object Object];
+  --desktop-links-body: [object Object];
+  --desktop-links-body-large: [object Object];
+  --desktop-body-body-small-semi-bold: [object Object];
+  --desktop-body-body-semi-bold: [object Object];
+  --desktop-body-body-large-semi-bold: [object Object];
+  --desktop-body-body-small: [object Object];
+  --desktop-body-body: [object Object];
+  --desktop-body-body-large: [object Object];
+  --desktop-headings-heading-06: [object Object];
+  --desktop-headings-heading-05: [object Object];
+  --desktop-headings-heading-04: [object Object];
+  --desktop-headings-heading-03: [object Object];
+  --desktop-headings-heading-02: [object Object];
+  --desktop-headings-heading-01: [object Object];
+}

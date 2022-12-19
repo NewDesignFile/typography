@@ -85,3 +85,17 @@ Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter sp
 `$caption` | Caption | 12 | 16 | Semi Bold | 0
 `$helper-text` | Helper text | 12 | 16 | Regular | 0
 `$code` | Code | 14 | 20 | Regular | 0
+
+
+## Build
+To build typography tokens.
+
+```
+npm install
+```
+
+Desktop
+```
+npm run build:tokens -- --typography=desktop
+npm run build:tokens -- --typography=mobile
+```
