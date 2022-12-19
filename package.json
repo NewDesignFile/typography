@@ -1,31 +1,32 @@
 {
   "name": "@new-ui/typography",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Modular typographic scale for you apps and websites. ",
+  "main": "build-tokens.js",
   "scripts": {
     "build:tokens": "node ./build-tokens.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NewDesignFile/colors.git"
+    "url": "git+https://github.com/NewDesignFile/typography.git"
   },
   "keywords": [
-    "colors",
-    "color-palette",
-    "themes",
+    "typography",
+    "responsive",
+    "type",
+    "type-styles",
+    "modular",
+    "type",
     "tokens",
-    "tokens-translation",
-    "design-tokens",
-    "design-system",
-    "color-system"
+    "desktop",
+    "mobile"
   ],
   "author": "Abhimanyu Rana",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/NewDesignFile/colors/issues"
+    "url": "https://github.com/NewDesignFile/typography/issues"
   },
-  "homepage": "https://github.com/NewDesignFile/colors#readme",
+  "homepage": "https://github.com/NewDesignFile/typography#readme",
   "devDependencies": {
     "style-dictionary": "^3.7.1"
   }
