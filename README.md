@@ -1,4 +1,4 @@
-![](help/cover.png)
+![](assets/cover.png)
 
 ## Text Styles for Figma
 [Get a Figma copy](https://www.figma.com/community/file/1186085071546203382)
