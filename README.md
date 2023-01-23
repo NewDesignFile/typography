@@ -92,6 +92,5 @@ To build typography tokens.
 
 ```
 npm install
-npm run build:tokens -- --typography=desktop
-npm run build:tokens -- --typography=mobile
+npm run build
 ```
