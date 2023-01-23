@@ -1,5 +1,6 @@
 /* Responsive Breakpoint */
 @custom-media --large-viewport (min-width: 600px);
+
 /* Mobile First */
 :root {
   --fs-heading-01: 32px;
