@@ -1,0 +1,114 @@
+$mobile-breakpoint: 600px;
+
+/* Components */
+.nu-c-h1 {
+  font-weight: 700;
+  font-size: var(--fs-heading-01);
+  line-height: var(--lh-heading-01);
+  letter-spacing: var(--tracking-heading-01);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-01);
+    line-height: var(--lh-mobile-heading-01);
+    letter-spacing: var(--tracking-mobile-heading-01);
+  }
+}
+
+.nu-c-h2 {
+  font-weight: 700;
+  font-size: var(--fs-heading-02);
+  line-height: var(--lh-heading-02);
+  letter-spacing: var(--tracking-heading-02);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-02);
+    line-height: var(--lh-mobile-heading-02);
+    letter-spacing: var(--tracking-mobile-heading-02);
+  }
+}
+
+.nu-c-h3 {
+  font-weight: 700;
+  font-size: var(--fs-heading-03);
+  line-height: var(--lh-heading-03);
+  letter-spacing: var(--tracking-heading-03);
+  
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-03);
+    line-height: var(--lh-mobile-heading-03);
+    letter-spacing: var(--tracking-mobile-heading-03);
+  }
+}
+
+.nu-c-h4 {
+  font-weight: 700;
+  font-size: var(--fs-heading-04);
+  line-height: var(--lh-heading-04);
+  
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-04);
+    line-height: var(--lh-mobile-heading-04);
+  }
+}
+
+.nu-c-h5 {
+  font-weight: 700;
+  font-size: var(--fs-heading-05);
+  line-height: var(--lh-heading-05);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-05);
+    line-height: var(--lh-mobile-heading-05);
+  }
+}
+
+.nu-c-h6 {
+  font-weight: 700;
+  font-size: var(--fs-heading-06);
+  line-height: var(--lh-heading-06);
+  
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-heading-06);
+    line-height: var(--lh-mobile-heading-06);
+  }
+}
+
+.nu-c-fs-lead {
+  font-size: var(--fs-body-xl);
+  
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-body-xl);
+  }
+}
+
+.nu-c-caption {
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: var(--fs-caption);
+  line-height: var(--lh-caption);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-caption);
+    line-height: var(--lh-mobile-caption);
+  }
+}
+
+.nu-c-helper-text {
+  font-size: var(--fs-helper-text);
+  line-height: var(--lh-helper-text);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-helper-text);
+    line-height: var(--lh-mobile-helper-text);
+  }
+}
+
+.nu-c-code {
+  font-size: var(--fs-code);
+  line-height: var(--lh-code);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--fs-mobile-code);
+    line-height: var(--lh-mobile-code);
+  }
+}

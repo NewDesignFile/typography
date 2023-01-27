@@ -1,0 +1,58 @@
+/* Font Weights */
+.nu-u-fw-bold {
+  font-weight: 700;
+}
+
+.nu-u-fw-semi-bold {
+  font-weight: 500;
+}
+
+.nu-u-fw-normal {
+  font-weight: 400;
+}
+
+/* Utilities */
+.nu-u-text-uppercase {
+  text-transform: uppercase;
+}
+
+.nu-u-text-lowercase {
+  text-transform: lowercase;
+}
+
+.nu-u-text-capitalize {
+  text-transform: capitalize;
+}
+
+.nu-u-text-underline {
+  text-decoration: underline;
+}
+
+.nu-u-text-left {
+  text-align: left;
+}
+
+.nu-u-text-right {
+  text-align: right;
+}
+
+.nu-u-text-center {
+  text-align: center;
+}
+
+.nu-u-text-justify {
+  text-align: justify;
+}
+
+/* Font family */
+.nu-u-serif {
+  font-family: georgia, serif;
+}
+
+.nu-u-sans-serif {
+  font-family: 'Inter', sans-serif;
+}
+
+.nu-u-code {
+  font-family: 'JetBrains Mono', monospace;
+}

@@ -2,8 +2,11 @@
   "name": "@new-ui/typography",
   "version": "1.0.0",
   "description": "Modular typographic scale for you apps and websites. ",
+  "source": "src/index.js",
+  "main": "dist/main.js",
   "scripts": {
-    "build": "mkdir -p dist && postcss index.css -u postcss-import -u postcss-custom-media -u postcss-custom-properties -u postcss-extend-rule -u autoprefixer -o dist/typography.css"
+    "watch": "parcel watch",
+    "build": "parcel build"
   },
   "repository": {
     "type": "git",
@@ -27,11 +30,9 @@
   },
   "homepage": "https://github.com/NewDesignFile/typography#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
     "autoprefixer": "^10.4.13",
-    "postcss-cli": "^10.1.0",
-    "postcss-custom-media": "^9.0.1",
-    "postcss-custom-properties": "^12.1.11",
-    "postcss-extend-rule": "^4.0.0",
-    "postcss-import": "^15.1.0"
+    "parcel": "^2.8.3",
+    "postcss-node-sass": "^1.1.1"
   }
 }
