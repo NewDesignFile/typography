@@ -10,7 +10,7 @@ npm i @new-ui/typography
 ```
 
 To get started quickly, you can use the CDN files.
-```
+```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@new-ui/typography@<version>/dist/index.css">
 ```
 
