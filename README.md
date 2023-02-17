@@ -17,7 +17,7 @@ To get started quickly, you can use the CDN files.
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@new-ui/typography@<version>/dist/index.css">
 ```
 
-## CSS usage guidelines
+## Usage Guide
 
 - Tokens defined in the figma file matches variables declared in CSS
 - All classes associated with the design system are prefixed with a global namespace followed by a hyphen: `nu-`
