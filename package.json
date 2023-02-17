@@ -1,9 +1,12 @@
 {
   "name": "@new-ui/typography",
-  "version": "1.0.0",
-  "description": "Modular typographic scale for you apps and websites. ",
-  "source": "src/index.js",
-  "main": "dist/main.js",
+  "version": "1.0.1",
+  "description": "Modular typographic scale for your apps and websites.",
+  "source": "src/index.scss",
+  "main": "dist/index.css",
+  "targets": {
+    "main": false
+  },
   "scripts": {
     "watch": "parcel watch",
     "build": "parcel build"
