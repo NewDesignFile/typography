@@ -4,10 +4,14 @@
 [Get a Figma copy](https://www.figma.com/community/file/1186085071546203382)
 
 ## Install
-Install New UI Typography from your terminal via npm. Current version is 1.0.0
-
+Install New UI Typography from your terminal via npm.
 ```
 npm i @new-ui/typography
+```
+
+To get started quickly, you can use the CDN files.
+```
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@new-ui/typography@<version>/dist/index.css">
 ```
 
 ## New UI Typography
@@ -95,7 +99,7 @@ $ npm install
 $ npm run build
 ```
 
-## Usage guidelines
+## CSS usage guidelines
 
 - Tokens defined in the figma file matches variables declared in CSS
 - All classes associated with the design system are prefixed with a global namespace followed by a hyphen: `nu-`
@@ -105,3 +109,4 @@ $ npm run build
   * `u-` for utilities, such as `.cn-u-mb-<spacing-token>` or `.cn-u-margin-bottom-pt2`
   * `is-` and has- for specific states, such as .cn-is-active or .cn-is-disabled. These state-based classes - would apply to
   * `js-` for targeting JavaScript-specific functionality, such as `.js-modal-trigger`. No styles are bound to these classes; they’re reserved for behavior only. For most cases, these js- classes would toggle - state-based classes to an element.
+
