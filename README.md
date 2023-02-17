@@ -91,6 +91,17 @@ Decision Tokens | Name | Size(px/rem) | Line height(px/rem) | Weight | Letter sp
 To build typography tokens.
 
 ```
-npm install
-npm run build
+$ npm install
+$ npm run build
 ```
+
+## Usage guidelines
+
+- Tokens defined in the figma file matches variables declared in CSS
+- All classes associated with the design system are prefixed with a global namespace followed by a hyphen: `nu-`
+- In addition to a global namespace, we added prefixes to each class to make it more apparent what job that class is doing using BEM syntax
+  * `c-` for UI components, such as `.cn-c-h1` or `.cn-c-card`
+  * `l-` for layout-related styles, such as `.cn-l-grid__item` or `.cn-l--two-column`
+  * `u-` for utilities, such as `.cn-u-mb-<spacing-token>` or `.cn-u-margin-bottom-pt2`
+  * `is-` and has- for specific states, such as .cn-is-active or .cn-is-disabled. These state-based classes - would apply to
+  * `js-` for targeting JavaScript-specific functionality, such as `.js-modal-trigger`. No styles are bound to these classes; they’re reserved for behavior only. For most cases, these js- classes would toggle - state-based classes to an element.
