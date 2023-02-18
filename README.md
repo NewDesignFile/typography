@@ -17,6 +17,13 @@ To get started quickly, you can use the CDN files.
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@new-ui/typography@<version>/dist/index.css">
 ```
 
+## Usage
+
+```scss
+// Place this at the top of your SCSS/CSS file
+@import "@new-ui/colors";
+```
+
 ## Usage Guide
 
 - Tokens defined in the figma file matches variables declared in CSS
