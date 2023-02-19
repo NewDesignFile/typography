@@ -21,7 +21,7 @@ To get started quickly, you can use the CDN files.
 
 ```scss
 // Place this at the top of your SCSS/CSS file
-@import "@new-ui/colors";
+@import "@new-ui/typography";
 ```
 
 ## Usage Guide
