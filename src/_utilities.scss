@@ -46,13 +46,31 @@
 
 /* Font family */
 .nu-u-serif {
-  font-family: 'Editorial', georgia, serif;
+  font-family: Didot,
+    'Bodoni MT',
+    'Noto Serif Display',
+    'URW Palladio L',
+    P052,
+    Sylfaen,
+    serif;
 }
 
 .nu-u-sans-serif {
-  font-family: 'Inter', sans-serif;
+  font-family: Inter,
+    Roboto,
+    'Helvetica Neue',
+    'Arial Nova',
+    'Nimbus Sans',
+    Arial,
+    sans-serif;
 }
 
 .nu-u-code {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: ui-monospace,
+    'Cascadia Code',
+    'Source Code Pro',
+    Menlo,
+    Consolas,
+    'DejaVu Sans Mono',
+    monospace;
 }
