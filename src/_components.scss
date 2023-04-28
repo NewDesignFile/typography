@@ -4,12 +4,12 @@ $mobile-breakpoint: 600px;
 .nu-c-h1 {
   font-weight: 700;
   font-size: var(--desktop-heading-01);
-  line-height: var(--desktop-heading-01);
+  line-height: var(--lh-desktop-heading-01);
   letter-spacing: var(--desktop-tracking-heading-01);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-01);
-    line-height: var(--mobile-heading-01);
+    line-height: var(--lh-mobile-heading-01);
     letter-spacing: var(--mobile-tracking-heading-01);
   }
 }
@@ -17,12 +17,12 @@ $mobile-breakpoint: 600px;
 .nu-c-h2 {
   font-weight: 700;
   font-size: var(--desktop--heading-02);
-  line-height: var(--desktop--heading-02);
+  line-height: var(--lh-desktop--heading-02);
   letter-spacing: var(--desktop-tracking-heading-02);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-02);
-    line-height: var(--mobile-heading-02);
+    line-height: var(--lh-mobile-heading-02);
     letter-spacing: var(--mobile-tracking-heading-02);
   }
 }
@@ -30,12 +30,12 @@ $mobile-breakpoint: 600px;
 .nu-c-h3 {
   font-weight: 700;
   font-size: var(--desktop-heading-03);
-  line-height: var(--desktop-heading-03);
+  line-height: var(--lh-desktop-heading-03);
   letter-spacing: var(--desktop-tracking-heading-03);
   
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-03);
-    line-height: var(--mobile-heading-03);
+    line-height: var(--lh-mobile-heading-03);
     letter-spacing: var(--mobile-tracking-heading-03);
   }
 }
@@ -43,41 +43,63 @@ $mobile-breakpoint: 600px;
 .nu-c-h4 {
   font-weight: 700;
   font-size: var(--desktop-heading-04);
-  line-height: var(--desktop-heading-04);
+  line-height: var(--lh-desktop-heading-04);
   
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-04);
-    line-height: var(--mobile-heading-04);
+    line-height: var(--lh-mobile-heading-04);
   }
 }
 
 .nu-c-h5 {
   font-weight: 700;
   font-size: var(--desktop-heading-05);
-  line-height: var(--desktop-heading-05);
+  line-height: var(--lh-desktop-heading-05);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-05);
-    line-height: var(--mobile-heading-05);
+    line-height: var(--lh-mobile-heading-05);
   }
 }
 
 .nu-c-h6 {
-  font-weight: 700;
+  font-weight: 500;
   font-size: var(--desktop-heading-06);
-  line-height: var(--desktop-heading-06);
+  line-height: var(--lh-desktop-heading-06);
   
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-heading-06);
-    line-height: var(--mobile-heading-06);
+    line-height: var(--lh-mobile-heading-06);
   }
 }
 
 .nu-c-fs-lead {
   font-size: var(--desktop-body-xl);
+  line-height: var(--lh-desktop-body-xl);
   
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-body-xl);
+    line-height: var(--lh-mobile-body-xl);
+  }
+}
+
+.nu-c-fs-normal {
+  font-size: var(--desktop-body);
+  line-height: var(--lh-desktop-body);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--mobile-body);
+    line-height: var(--lh-mobile-body);
+  }
+}
+
+.nu-c-fs-small {
+  font-size: var(--desktop-body-sm);
+  line-height: var(--lh-desktop-body-sm);
+
+  @media screen and (max-width: $mobile-breakpoint) {
+    font-size: var(--mobile-body-sm);
+    line-height: var(--lh-mobile-body-sm);
   }
 }
 
@@ -85,21 +107,21 @@ $mobile-breakpoint: 600px;
   font-weight: 500;
   text-transform: uppercase;
   font-size: var(--desktop-caption);
-  line-height: var(--desktop-caption);
+  line-height: var(--lh-desktop-caption);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-caption);
-    line-height: var(--mobile-caption);
+    line-height: var(--lh-mobile-caption);
   }
 }
 
 .nu-c-helper-text {
   font-size: var(--desktop-helper-text);
-  line-height: var(--desktop-helper-text);
+  line-height: var(--lh-desktop-helper-text);
 
   @media screen and (max-width: $mobile-breakpoint) {
     font-size: var(--mobile-helper-text);
-    line-height: var(--mobile-helper-text);
+    line-height: var(--lh-mobile-helper-text);
   }
 }
 
