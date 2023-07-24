@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/typography",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Modular typographic scale for your apps and websites.",
   "source": "src/index.scss",
   "main": "dist/index.css",
