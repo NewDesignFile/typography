@@ -1,6 +1,6 @@
 {
   "name": "@new-ui/typography",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Modular typographic scale for your apps and websites.",
   "source": "src/index.scss",
   "main": "dist/index.css",
@@ -26,7 +26,7 @@
     "desktop",
     "mobile"
   ],
-  "author": "Abhimanyu Rana",
+  "author": "@planetabhi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/NewDesignFile/typography/issues"
